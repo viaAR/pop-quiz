@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">QuizBuilder</string>
+    <string name="welcome">What do we call you?</string>
+    <string name="title">Sports Logo Quiz</string>
+    <string name="name_hint">Name</string>
+    <string name="btn_message">Start</string>
+</resources>
