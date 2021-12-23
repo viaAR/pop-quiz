@@ -15,5 +15,5 @@ The user has made an incorrect selection <br>
 
 ## User results are revealed
 The users results are revealed with a progress bar. <br>
-[CircularProgressBar](https://github.com/lopspower/CircularProgressBar.git) by Lopez Mikhael <br>
 <img src="img/play-again.png" width=50% height=50%>
+##### [CircularProgressBar](https://github.com/lopspower/CircularProgressBar.git) by Lopez Mikhael
