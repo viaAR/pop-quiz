@@ -7,13 +7,8 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-
-    <!-- My Monochrome Colors -->
-    <color name="gray_yellow_200">#FFECECEA</color>
-    <color name="gray_yellow_300">#FFE3E3E1</color>
-    <color name="v_light_gray">#FFFDFDFD</color>
-    <color name="v_dark_gray">#FF505050</color>
-    <color name="grayish_blue">#FFBDBDC7</color>
-
-
+    <color name="red">#D34254</color>
+    <color name="green">#6FD690</color>
+    <color name="space_gray">#61666D</color>
+    <color name="gray">#7A8089</color>
 </resources>

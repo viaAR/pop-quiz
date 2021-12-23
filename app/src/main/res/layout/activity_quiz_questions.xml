@@ -19,16 +19,16 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:gravity="center"
-            android:textColor="#363A43"
+            android:textColor="@color/space_gray"
             android:textSize="22sp"
-            tools:text="What team is this?" />
+            tools:text="@string/question_title_txt" />
 
         <ImageView
             android:id="@+id/iv_image"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:contentDescription="image"
+            android:contentDescription="@string/image"
             tools:src="@drawable/seattle_kraken" />
 
         <LinearLayout
@@ -58,7 +58,7 @@
                 android:padding="15dp"
                 android:textColorHint="#7A8089"
                 android:textSize="14sp"
-                tools:text="0/10" />
+                tools:text="@string/pb_current_total" />
         </LinearLayout>
 
         <TextView
@@ -66,12 +66,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
-            android:background="@drawable/default_option_border_bg"
+            android:background="@drawable/default_border"
             android:gravity="center"
+            android:onClick="optionOneClick"
             android:padding="15dp"
-            android:textColor="#7A8089"
+            android:textColor="@color/space_gray"
             android:textSize="18sp"
-            tools:text="A" />
+            tools:text="@string/opt_A_txt" />
 
         <TextView
             android:id="@+id/tv_option_two"
@@ -81,12 +82,13 @@
             android:layout_marginTop="10dp"
             android:layout_marginEnd="10dp"
             android:layout_marginBottom="10dp"
-            android:background="@drawable/default_option_border_bg"
+            android:background="@drawable/default_border"
             android:gravity="center"
+            android:onClick="optionTwoClick"
             android:padding="15dp"
-            android:textColor="#7A8089"
+            android:textColor="@color/space_gray"
             android:textSize="18sp"
-            tools:text="B" />
+            tools:text="@string/opt_B_txt" />
 
         <TextView
             android:id="@+id/tv_option_three"
@@ -96,12 +98,13 @@
             android:layout_marginTop="10dp"
             android:layout_marginEnd="10dp"
             android:layout_marginBottom="10dp"
-            android:background="@drawable/default_option_border_bg"
+            android:background="@drawable/default_border"
             android:gravity="center"
+            android:onClick="optionThreeClick"
             android:padding="15dp"
-            android:textColor="#7A8089"
+            android:textColor="@color/space_gray"
             android:textSize="18sp"
-            tools:text="C" />
+            tools:text="@string/opt_C_txt" />
 
         <TextView
             android:id="@+id/tv_option_four"
@@ -111,12 +114,13 @@
             android:layout_marginTop="10dp"
             android:layout_marginEnd="10dp"
             android:layout_marginBottom="10dp"
-            android:background="@drawable/default_option_border_bg"
+            android:background="@drawable/default_border"
             android:gravity="center"
+            android:onClick="optionFourClick"
             android:padding="15dp"
-            android:textColor="#7A8089"
+            android:textColor="@color/space_gray"
             android:textSize="18sp"
-            tools:text="D" />
+            tools:text="@string/opt_D_txt" />
 
         <Button
             android:id="@+id/btn_submit"
@@ -124,7 +128,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:background="@color/purple_500"
-            android:text="SUBMIT"
+            android:text="@string/submit"
             android:textColor="@android:color/white"
             android:textSize="18sp"
             android:textStyle="bold" />

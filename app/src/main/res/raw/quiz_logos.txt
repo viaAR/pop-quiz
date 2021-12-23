@@ -1,0 +1,10 @@
+seattle_kraken
+chicago_bears
+portland_timbers
+arizona_coyotes
+colorado_rockies
+columbus_blue_jackets
+los_angeles_angels
+los_angeles_rams
+new_england_revolution
+toronto_blue_jays

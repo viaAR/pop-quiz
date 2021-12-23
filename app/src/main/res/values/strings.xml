@@ -1,7 +1,18 @@
 <resources>
-    <string name="app_name">QuizBuilder</string>
+    <string name="app_name">Sports Logo Quiz</string>
     <string name="welcome">What do we call you?</string>
-    <string name="title">Sports Logo Quiz</string>
+    <string name="title">How well do you know your teams?</string>
     <string name="name_hint">Name</string>
     <string name="btn_message">Start</string>
+    <string name="submit">NEXT</string>
+    <string name="final_message">Thanks for Playing!</string>
+    <string name="btn_home">PLAY AGAIN!</string>
+    <string name="score">0/10</string>
+    <string name="image">image</string>
+    <string name="opt_A_txt">A</string>
+    <string name="opt_B_txt">B</string>
+    <string name="opt_C_txt">C</string>
+    <string name="opt_D_txt">D</string>
+    <string name="question_title_txt">What team is this?</string>
+    <string name="pb_current_total">0/10</string>
 </resources>

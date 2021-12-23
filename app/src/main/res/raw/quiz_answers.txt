@@ -1,0 +1,10 @@
+Seattle Kraken, San Diego Serpents, St Louis Snakes, Seattle Seahawks,
+Chicago Bears, Chicago Cubs, Cleveland Cavaliers, California Cardinals,
+Portland Timbers, Alabama Loggers, Utah Lumberjacks, Edmonton Pioneers,
+Arizona Coyotes, Denver Wolves, Carolina Wolfpack, Houston Hounds,
+Colorado Rockies, Charlotte Rockets, Charlestown Rapids, Carolina Raiders,
+Columbus Blue Jackets, Phoenix Stars, Washington Aces, Houston Astros,
+Los Angeles Angels, Alabama Angels, Alberta Roughnecks, Oregon Ariels,
+Los Angeles Rams, Los Angeles Raiders, Los Angeles Chargers, Los Angeles Storm,
+New England Revolution, South Dakota Americans, Minnesota Patriots, Georgia Stars,
+Toronto Blue Jays, Montreal Ravens, Vancouver Hawks, Alberta Cardinals

@@ -12,6 +12,8 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
+    String username;
+
     Button btn_start;
     EditText et_name;
 
@@ -26,11 +28,16 @@ public class MainActivity extends AppCompatActivity {
         btn_start.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                // Check to make sure the user entered a name
                 if (et_name.getText().toString().isEmpty()){
                     Toast.makeText(v.getContext(),"Enter a name",Toast.LENGTH_SHORT).show();
                 }
                 else {
+                    // Pass the users name through to the next activity
+                    username = et_name.getText().toString();
+
                     Intent i = new Intent(MainActivity.this, QuizQuestionsActivity.class);
+                    i.putExtra("username", username);
                     MainActivity.this.startActivity(i);
                 }
             }
